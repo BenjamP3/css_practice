@@ -1,0 +1,57 @@
+div.recognize_boxes > p {
+	background: lightskyblue;
+}
+p.pad {
+	padding: 10px;
+}
+p.bdr {
+	border: 5px solid tomato;
+}
+p.mgn {
+	margin: 20px;
+}
+
+div.display_inline > ul {
+	border: 2px solid tomato;
+}
+div.display_inline > ul > li {
+	background: mistyrose;
+	margin: 10px;
+	padding: 5px;
+	width: 100px;
+	height: 20px;
+}
+div.display_inline > ul.block > li {
+	display: block;
+}
+div.display_inline > ul.inline > li {
+	display: inline;
+}
+div.display_inline > ul.inline-block > li {
+	display: inline-block;
+}
+
+div.border_control {
+	border-width: 10px;
+	border-style: groove;
+	border-color: plum;
+}
+
+div.sticky_menu_btn {
+	width: 150px;
+	padding: 10px;
+	background: tomato;
+	color: white;
+	position: sticky;
+	top: 10px;
+	margin: auto;
+}
+div.fixed_logo_ele {
+	width: 150px;
+	padding: 10px;
+	background: tomato;
+	color: white;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
